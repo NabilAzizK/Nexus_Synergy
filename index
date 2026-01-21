@@ -1,106 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nexus Synergy Solutions</title>
+  <meta name="description" content="Nexus Synergy — Strategic advisory & AI infrastructure for banks, governments and knowledge institutions. Trustworthy data, regulatory intelligence and institutional transformation." />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nexus Synergy — Institutional Intelligence for a Regulated World" />
+  <meta property="og:description" content="We help banks, governments, and knowledge institutions design trustworthy digital, data, and AI foundations — securely, ethically, and at scale." />
+  <meta property="og:url" content="https://nexussynergy.org/" />
+  <meta property="og:image" content="/assets/favicon.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nexus Synergy" />
+  <meta name="twitter:description" content="Trustworthy data. Responsible AI. Institutional impact." />
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', sans-serif; margin: 0; background: #f9f9f9; color: #1a1a1a; }
-    header { background: #0f172a; color: #fff; padding: 2.5rem 1.5rem; }
-    header h1 { margin: 0; font-size: 2.2rem; }
-    nav a { color: #cbd5f5; margin: 0 1rem; text-decoration: none; font-weight: 600; }
-    .hero { padding: 4rem 2rem; background: linear-gradient(135deg,#0f172a,#1e3a8a); color: #fff; text-align: center; }
-    .hero h2 { font-size: 2.8rem; margin-bottom: 1rem; }
-    .hero p { font-size: 1.2rem; max-width: 900px; margin: auto; }
-    section { padding: 4rem 2rem; background: #fff; }
-    section.alt { background: #f1f5f9; }
-    h3 { color: #1e3a8a; font-size: 1.9rem; margin-bottom: 1rem; }
-    .container { max-width: 1100px; margin: auto; }
-    ul { padding-left: 1.2rem; }
-    li { margin-bottom: 0.6rem; }
-    .pillars { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 1.5rem; }
-    .card { background: #fff; border-radius: 14px; padding: 1.8rem; box-shadow: 0 10px 25px rgba(0,0,0,.08); }
-    footer { background: #020617; color: #e5e7eb; padding: 2.5rem 1.5rem; text-align: center; }
-    footer a { color: #93c5fd; text-decoration: none; }
-  </style>
+  <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<header>
-  <div class="container">
-    <h1>Nexus Synergy</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#ai">AI Products</a>
-      <a href="#framework">NEXUS360™</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
+  <header>
+    <div class="container header-inner" role="banner">
+      <div class="logo" aria-hidden="false">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <div>
+          <h1 style="font-size:1rem;margin:0">Nexus Synergy</h1>
+          <div class="brand-sub">Institutional Intelligence</div>
+        </div>
+      </div>
 
-<section class="hero">
-  <h2>Institutional Intelligence for a Regulated World</h2>
-  <p>We help banks, governments, and knowledge institutions design trustworthy digital, data, and AI foundations — securely, ethically, and at scale.</p>
-</section>
+      <div style="display:flex;align-items:center;gap:.6rem">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" id="navToggle">Menu ▾</button>
 
-<section id="about">
-  <div class="container">
-    <h3>Who We Are</h3>
-    <p>Nexus Synergy is a strategic advisory and AI infrastructure firm working at the intersection of <strong>data governance, regulatory intelligence, and institutional transformation</strong>. We partner with central banks, ministries, financial institutions, universities, and international organizations.</p>
-  </div>
-</section>
-
-<section id="services" class="alt">
-  <div class="container">
-    <h3>Core Services</h3>
-    <div class="pillars">
-      <div class="card"><strong>Training & Capacity Building</strong><br/>Data Stewardship Academy™, AML/CFT literacy, AI readiness, open data & governance programs.</div>
-      <div class="card"><strong>Regulatory & Compliance Advisory</strong><br/>AML/CFT frameworks, regulatory mapping, audit readiness, risk governance.</div>
-      <div class="card"><strong>Digital & Data Infrastructure</strong><br/>Secure platforms, PID systems, interoperable registries, institutional data architecture.</div>
-      <div class="card"><strong>AI Strategy & Deployment</strong><br/>Responsible AI design, pilot implementation, validation in regulated environments.</div>
+        <nav id="site-nav" role="navigation" aria-label="Main navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#ai">AI Products</a></li>
+            <li><a href="#framework">NEXUS360™</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-  </div>
-</section>
+  </header>
 
-<section id="ai">
-  <div class="container">
-    <h3>Nexus AI Product Suite</h3>
-    <ul>
-      <li><strong>RegAI Sentinel™</strong> — AI-powered regulatory intelligence, compliance change detection, obligation mapping.</li>
-      <li><strong>TraceAI Ledger™</strong> — Persistent Identifier–based financial traceability, AML analytics, entity graph intelligence.</li>
-      <li><strong>NEXUS PID Registry™</strong> — Cross-system identifiers for transactions, documents, entities.</li>
-      <li><strong>Insight360 Dashboards™</strong> — Executive-level risk, compliance, and performance visibility.</li>
-    </ul>
-  </div>
-</section>
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <h2 id="hero-heading">Institutional Intelligence for a Regulated World</h2>
+        <p>We help banks, governments, and knowledge institutions design trustworthy digital, data, and AI foundations — securely, ethically, and at scale.</p>
+        <a class="cta" href="#contact">Get in touch</a>
+      </div>
+    </section>
 
-<section id="framework" class="alt">
-  <div class="container">
-    <h3>NEXUS360™ Framework</h3>
-    <p>Our proprietary diagnostic and transformation model structured around four pillars:</p>
-    <ul>
-      <li><strong>Infrastructure</strong> — systems, platforms, data architecture</li>
-      <li><strong>Insight</strong> — analytics, AI, decision intelligence</li>
-      <li><strong>Integrity</strong> — compliance, ethics, security</li>
-      <li><strong>Inclusion</strong> — access, capacity, public value</li>
-    </ul>
-  </div>
-</section>
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h3 id="about-heading">Who We Are</h3>
+        <p>Nexus Synergy is a strategic advisory and AI infrastructure firm working at the intersection of <strong>data governance, regulatory intelligence, and institutional transformation</strong>. We partner with banks, governments and knowledge institutions to design, implement, and operate trustworthy digital and AI foundations — secure, auditable and aligned to regulatory and ethical norms. Our multidisciplinary team combines policy, engineering and operational experience to deliver practical, scalable solutions for high-stakes environments.</p>
+      </div>
+    </section>
 
-<section id="contact">
-  <div class="container">
-    <h3>Contact</h3>
-    <p>📧 contact@nexussynergy.org</p>
-    <p>📍 Tunis, Tunisia — Operating internationally</p>
-  </div>
-</section>
+    <section id="services" class="alt" aria-labelledby="services-heading">
+      <div class="container">
+        <h3 id="services-heading">Core Services</h3>
+        <div class="pillars" role="list">
+          <div class="card" role="listitem">
+            <strong>Training & Capacity Building</strong>
+            <div class="muted">Data Stewardship Academy™, AML/CFT literacy, AI readiness, open data & governance programs.</div>
+          </div>
+          <div class="card" role="listitem">
+            <strong>Regulatory & Compliance Advisory</strong>
+            <div class="muted">AML/CFT frameworks, regulatory mapping, audit readiness, risk governance.</div>
+          </div>
+          <div class="card" role="listitem">
+            <strong>Digital & Data Infrastructure</strong>
+            <div class="muted">Secure platforms, PID systems, interoperable registries, institutional data architecture.</div>
+          </div>
+          <div class="card" role="listitem">
+            <strong>AI Strategy & Deployment</strong>
+            <div class="muted">Responsible AI design, pilot implementation, validation in regulated environments.</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<footer>
-  <p>© 2025 Nexus Synergy</p>
-  <p>Trusted Data. Responsible AI. Institutional Impact.</p>
-</footer>
+    <section id="ai" aria-labelledby="ai-heading">
+      <div class="container">
+        <h3 id="ai-heading">Nexus AI Product Suite</h3>
+        <ul>
+          <li><strong>RegAI Sentinel™</strong> — AI-powered regulatory intelligence, compliance change detection, obligation mapping.</li>
+          <li><strong>TraceAI Ledger™</strong> — Persistent Identifier–based financial traceability, AML analytics, entity graph intelligence.</li>
+          <li><strong>NEXUS PID Registry™</strong> — Cross-system identifiers for transactions, documents, entities.</li>
+          <li><strong>Insight360 Dashboards™</strong> — Executive-level risk, compliance, and performance visibility.</li>
+        </ul>
+      </div>
+    </section>
 
+    <section id="framework" class="alt" aria-labelledby="framework-heading">
+      <div class="container">
+        <h3 id="framework-heading">NEXUS360™ Framework</h3>
+        <p>Our proprietary diagnostic and transformation model is structured around four pillars:</p>
+        <ul>
+          <li><strong>Infrastructure</strong> — systems, platforms, data architecture</li>
+          <li><strong>Insight</strong> — analytics, AI, decision intelligence</li>
+          <li><strong>Integrity</strong> — compliance, ethics, security</li>
+          <li><strong>Inclusion</strong> — access, capacity, public value</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h3 id="contact-heading">Contact</h3>
+
+        <!-- Contact form: posts to Formspree by default. Replace {your-form-id} -->
+        <form id="contactForm" class="form-card" method="POST" action="https://formspree.io/f/{your-form-id}" data-endpoint="https://formspree.io/f/{your-form-id}">
+          <input type="hidden" name="_subject" value="Nexus Synergy website enquiry">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Full name" />
+            </div>
+            <div class="form-field">
+              <label for="email">Email (required)</label>
+              <input id="email" name="email" type="email" placeholder="you@company.com" required />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message (required)</label>
+            <textarea id="message" name="message" placeholder="Tell us a little about your needs" required></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="button-primary">Send message</button>
+            <button type="reset" class="button-ghost">Reset</button>
+            <div class="form-status" aria-live="polite"></div>
+          </div>
+        </form>
+
+        <p style="text-align:center;margin-top:.9rem">
+          or email: <a class="contact-mail" href="mailto:contact@nexussynergy.org">contact@nexussynergy.org</a>
+        </p>
+
+        <p class="muted" style="text-align:center;margin-top:.6rem">📍 Tunis, Tunisia — Operating internationally</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Nexus Synergy</p>
+      <p>Trusted Data. Responsible AI. Institutional Impact.</p>
+      <p><a href="#about" style="color:#93c5fd">Privacy & Terms</a></p>
+    </div>
+  </footer>
+
+  <script defer src="/assets/script.js"></script>
 </body>
 </html>
