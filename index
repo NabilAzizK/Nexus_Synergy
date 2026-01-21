@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus Synergy Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; background: #f9f9f9; color: #1a1a1a; }
+    header { background: #0f172a; color: #fff; padding: 2.5rem 1.5rem; }
+    header h1 { margin: 0; font-size: 2.2rem; }
+    nav a { color: #cbd5f5; margin: 0 1rem; text-decoration: none; font-weight: 600; }
+    .hero { padding: 4rem 2rem; background: linear-gradient(135deg,#0f172a,#1e3a8a); color: #fff; text-align: center; }
+    .hero h2 { font-size: 2.8rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; max-width: 900px; margin: auto; }
+    section { padding: 4rem 2rem; background: #fff; }
+    section.alt { background: #f1f5f9; }
+    h3 { color: #1e3a8a; font-size: 1.9rem; margin-bottom: 1rem; }
+    .container { max-width: 1100px; margin: auto; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.6rem; }
+    .pillars { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 1.5rem; }
+    .card { background: #fff; border-radius: 14px; padding: 1.8rem; box-shadow: 0 10px 25px rgba(0,0,0,.08); }
+    footer { background: #020617; color: #e5e7eb; padding: 2.5rem 1.5rem; text-align: center; }
+    footer a { color: #93c5fd; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Nexus Synergy</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#ai">AI Products</a>
+      <a href="#framework">NEXUS360™</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <h2>Institutional Intelligence for a Regulated World</h2>
+  <p>We help banks, governments, and knowledge institutions design trustworthy digital, data, and AI foundations — securely, ethically, and at scale.</p>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h3>Who We Are</h3>
+    <p>Nexus Synergy is a strategic advisory and AI infrastructure firm working at the intersection of <strong>data governance, regulatory intelligence, and institutional transformation</strong>. We partner with central banks, ministries, financial institutions, universities, and international organizations.</p>
+  </div>
+</section>
+
+<section id="services" class="alt">
+  <div class="container">
+    <h3>Core Services</h3>
+    <div class="pillars">
+      <div class="card"><strong>Training & Capacity Building</strong><br/>Data Stewardship Academy™, AML/CFT literacy, AI readiness, open data & governance programs.</div>
+      <div class="card"><strong>Regulatory & Compliance Advisory</strong><br/>AML/CFT frameworks, regulatory mapping, audit readiness, risk governance.</div>
+      <div class="card"><strong>Digital & Data Infrastructure</strong><br/>Secure platforms, PID systems, interoperable registries, institutional data architecture.</div>
+      <div class="card"><strong>AI Strategy & Deployment</strong><br/>Responsible AI design, pilot implementation, validation in regulated environments.</div>
+    </div>
+  </div>
+</section>
+
+<section id="ai">
+  <div class="container">
+    <h3>Nexus AI Product Suite</h3>
+    <ul>
+      <li><strong>RegAI Sentinel™</strong> — AI-powered regulatory intelligence, compliance change detection, obligation mapping.</li>
+      <li><strong>TraceAI Ledger™</strong> — Persistent Identifier–based financial traceability, AML analytics, entity graph intelligence.</li>
+      <li><strong>NEXUS PID Registry™</strong> — Cross-system identifiers for transactions, documents, entities.</li>
+      <li><strong>Insight360 Dashboards™</strong> — Executive-level risk, compliance, and performance visibility.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="framework" class="alt">
+  <div class="container">
+    <h3>NEXUS360™ Framework</h3>
+    <p>Our proprietary diagnostic and transformation model structured around four pillars:</p>
+    <ul>
+      <li><strong>Infrastructure</strong> — systems, platforms, data architecture</li>
+      <li><strong>Insight</strong> — analytics, AI, decision intelligence</li>
+      <li><strong>Integrity</strong> — compliance, ethics, security</li>
+      <li><strong>Inclusion</strong> — access, capacity, public value</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h3>Contact</h3>
+    <p>📧 contact@nexussynergy.org</p>
+    <p>📍 Tunis, Tunisia — Operating internationally</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Nexus Synergy</p>
+  <p>Trusted Data. Responsible AI. Institutional Impact.</p>
+</footer>
+
+</body>
+</html>
